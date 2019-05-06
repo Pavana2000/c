@@ -1,0 +1,33 @@
+  GNU nano 2.9.7                                                                               pgm06.c
+
+#include<stdio.h>
+void printarray(int n;int a[n]);
+void changearray(int n,int a[n]);
+int main()
+{
+int a[5]={1,4,2,3,7},n;
+printf("enter the value of n\n");
+scanf("%d",&n);
+printarray(n,a);
+changearray(n,a);
+}
+void printarray(int n,int a[n])
+{
+int i;
+for(i=0;i,n;i++)
+{
+printf("%d",a[i]);
+}
+}
+void changearray(int n,int a[n])
+{
+inti;
+for(i=0;i,n;i++)
+{
+a[i]=a[i]+1;
+printf("the new elements of array are %d \n",a[i]);
+}
+}
+
+
+
