@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+int a[100],n,sum=0,i;
+printf("enter the value of n:\n");
+scanf("%d",&n);
+printf("enter the elements of an array:\n");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("sum of %d elements:\n",n);
+for(i=0;i<n;i++)
+{
+sum=sum+a[i];
+}
+printf("the sum of the %d elements is %d",n,sum);
+}
+
